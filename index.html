@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquake Data Visualization</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <style>
+        #mapid {
+            height: 600px;
+            width: 100%;
+        }
+        .info.legend {
+            background-color: white;
+            padding: 6px 8px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Earthquake Visualization</h1>
+    <div id="mapid"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    
+    <!-- D3.js for data fetching -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    
+    <!-- Link to your JavaScript file -->
+    <script src="logic.js"></script>
+    
+</body>
+</html>
